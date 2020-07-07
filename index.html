@@ -11,9 +11,6 @@
                 background-color: rgba(27, 11, 29, 0.808);
                 font-family: 'Josefin Sans', sans-serif;                
             }    
-            a {
-                color: rgb(4, 70, 4);
-            }
             h1 {
                 text-align: center;
                 color:#6776A2;
@@ -26,13 +23,18 @@
                 color: #6776A2;
                 font-size: 1.1em;
             }
+            .link_edin {
+                color: black;
+                font-size: 1.8em;
+            }
             .indice {
                 font-size: 30px;
             }
             .descrip {
                 font-size: 1.5em;
+                
             }
-            .tam_habil_qualid {
+            .tamanho {
                 font-size: 20px;
             }
             .macarena {
@@ -44,12 +46,9 @@
             .color_azul {
                 color: rgb(54, 155, 158);
             }
-            .link_indice {
-                color:rgb(54, 155, 158);
-                font-size: 1.5em;
+            .trybe_link {
+                color: rgb(4, 70, 4);
             }
-           
-                
         </style>
     </head>
   
@@ -58,9 +57,9 @@
         <p>
             <h2 class="indice color_cinza">Indice</h2>
             <ul>
-                <li ><a href="#descrip" class="link_indice"> Descripcion</a></li><br>
-                <li><a href="#qualidades" class="link_indice"> Qualidades</a></li><br>
-                <li><a href="#habilidades" class="link_indice"> Habilidades</a></li>
+                <li ><a href="#descrip" class="color_azul tamanho"> Descripcion</a></li><br>
+                <li><a href="#qualidades" class="color_azul tamanho"> Qualidades</a></li><br>
+                <li><a href="#habilidades" class="color_azul tamanho"> Habilidades</a></li>
             </ul>
         <hr>    
         </p>
@@ -69,12 +68,12 @@
             Meu nome é <strong> Macarena</strong>. Sou Uruguaia, tenho 29 anos. <br> Atualmente moro em uma pequena cidade chamada<br> Braco do Norte em Santa Catarina.<br>Sou técnica em manutenção de computadores e redes, <br>trabalhei cerca de sete anos neste campo.
         </p>
         <p id="descrip" class="color_cinza descrip">
-            Agora eu sou uma estudante da <strong><a href="https://www.betrybe.com/" target="_blank"> Trybe</a></strong>,<br> para me  tornar<em> Desenvolvedora de Software Full-stack.</em>    
+            Agora eu sou uma estudante da <strong><a href="https://www.betrybe.com/" target="_blank" class="trybe_link"> Trybe</a></strong>,<br> para me  tornar<em> Desenvolvedora de Software Full-stack.</em>    
         </p>
         <hr>
         <p>
-            <strong class="color_azul tam_habil_qualid"> Qualidaes</strong>
-            <ul id="qualidades" class="color_cinza tam_habil_qualid"> 
+            <strong class="color_azul tamanho"> Qualidaes</strong>
+            <ul id="qualidades" class="color_cinza tamanho"> 
                 <li><strong>Ética e confiabilidade</strong></li>
                 <li>Vontade de aprender</li>
                 <li>Comprometimento</li>
@@ -82,8 +81,8 @@
                 <li>Capacidade de análise</li>
                 <li>Resolução de problemas</li>
             </ul>
-            <strong class="color_azul tam_habil_qualid"> Habilidades</strong>
-            <ul id="habilidades" class="color_cinza tam_habil_qualid">
+            <strong class="color_azul tamanho"> Habilidades</strong>
+            <ul id="habilidades" class="color_cinza tamanho">
                 <li><strong> Idiomas: Inglês, Espanhol e Português</strong></li>
                 <li>Montagem e Manutenção de Pcs </li>
                 <li>Shel Script Iniciante</li>
@@ -91,7 +90,7 @@
             </ul>
         </p> 
         <hr>
-        <a href="https://www.linkedin.com/in/macarena-rodriguez-5705b4170/" target="_blank">Perfil LinkedIn</a>
+        <a href="https://www.linkedin.com/in/macarena-rodriguez-5705b4170/" target="_blank" class="link_edin">Perfil LinkedIn</a>
         <hr>
     
     </body>
