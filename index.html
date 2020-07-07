@@ -4,13 +4,13 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portfolio - Macarena Rodriguez</title>
+        <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
         <style>
             body {
                 color: #000000;
                 background-color: rgba(27, 11, 29, 0.808);
-                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                
-            }
+                font-family: 'Josefin Sans', sans-serif;                
+            }    
             a {
                 color:rgb(54, 155, 158);
                 font-size: 1.5em;
@@ -18,20 +18,35 @@
             }
             h1 {
                 text-align: center;
-                color: rgb(70, 134, 136);
+                color:#6776A2;
                 text-decoration: underline;
                 line-height: 2em;
-                
+                font-weight: 600;
+                font-size: 40px;
             }
-            #indice {
+            strong {
+                color: #6776A2;
+                font-size: 1.1em;
+            }
+            .indice {
                 font-size: 30px;
-                color: darkgrey;
-
             }
-            #descrip {
-                color: darkgrey;
+            .descrip {
                 font-size: 1.5em;
             }
+            .tam_habil_qualid {
+                font-size: 20px;
+            }
+            .macarena {
+                border-radius: 30%;
+            }
+            .color_cinza {
+                color: darkgrey;
+            }
+            .color_azul {
+                color: rgb(54, 155, 158);
+            }
+           
                 
         </style>
     </head>
@@ -39,23 +54,23 @@
     <body>
         <h1>Macarena Rodriguez</h1>
         <p>
-            <h2 id="indice">Indice</h2>
+            <h2 class="indice color_cinza">Indice</h2>
             <ul>
-                <li><a href="#descrip"> Descripcion</a></li>
-                <li><a href="#qualidades"> Qualidades</a></li>
-                <li><a href="#habilidades"> habilidades</a></li>
+                <li><a href="#descrip"> Descripcion</a></li><br>
+                <li><a href="#qualidades"> Qualidades</a></li><br>
+                <li><a href="#habilidades"> Habilidades</a></li>
             </ul>
 
         </p>
-        <img id="macarena" src="imagens/xxx.jpg" alt="Foto de perfil da Macarena" width="200">
-        <p id="descrip">
+        <img class="macarena" src="imagens/xxx.jpg" alt="Foto de perfil da Macarena" width="200">
+        <p id="descrip" class="color_cinza descrip">
             Meu nome é <strong> Macarena</strong>, sou Uruguaia, tenho 29 anos. <br> Atualmente moro em uma pequena cidade,<br> Braco do Norte em Santa Catarina.<br> Eu sou uma estudante da <strong>Trybe</strong>,<br> para me tornar
             <em>desenvolvedora web.</em>
         </p>
         <hr>
         <p>
-            <strong> Qualidaes</strong>
-            <ul id="qualidades"> 
+            <strong class="color_azul tam_habil_qualid"> Qualidaes</strong>
+            <ul id="qualidades" class="color_cinza tam_habil_qualid"> 
                 <li><strong>Ética e confiabilidade</strong></li>
                 <li>Vontade de aprender</li>
                 <li>Comprometimento</li>
@@ -63,16 +78,14 @@
                 <li>Capacidade de análise</li>
                 <li>Resolução de problemas</li>
             </ul>
-            <strong> Habilidades</strong>
-            <ul id="habilidades">
+            <strong class="color_azul tam_habil_qualid"> Habilidades</strong>
+            <ul id="habilidades" class="color_cinza tam_habil_qualid">
                 <li><strong> Idiomas: Inglês, Espanhol e Português</strong></li>
                 <li>Montagem e Manutenção de Pcs </li>
                 <li>Shel Script Iniciante</li>
                 <li>Html/CSS3 Iniciante</li>
             </ul>
         </p> 
-        <hr>     
-        <a href="#macarena">FOTO</a> 
         <hr>
         <a href="https://www.linkedin.com/in/macarena-rodriguez-5705b4170/" target="_blank">Perfil LinkedIn</a>
         <hr>
