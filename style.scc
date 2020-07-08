@@ -20,7 +20,6 @@ strong {
 }
 .macarena {
     border-radius: 30%;
-    float: left;
 }
 .color_cinza {
     color: darkgrey;
@@ -31,11 +30,4 @@ strong {
 }
 .trybe_link {
     color: rgb(17, 121, 17);
-}
-.foto-descrip p{
-    float: right;
-    margin: 30px;
-}
-.qualidades-habilidades{
-    clear: both;
 }
