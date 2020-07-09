@@ -4,11 +4,12 @@ body {
     font-family: 'Josefin Sans', sans-serif;                
     font-size: 1.2em;
 }    
-h1 {
+.titulo {
     font-family: 'Merienda One', cursive;
     color:#6776A2;
     line-height: 2em;
     text-shadow: black 2px 2px 10px;
+    text-align: center;
 }
 strong {
     color: #6776A2;
@@ -18,24 +19,41 @@ strong {
     color: black;
     font-size: 1.2em;
 }
-.macarena {
-    border-radius: 30%;
-    float: left;
-}
 .color_cinza {
     color: darkgrey;
 }
 .color_azul {
     color: rgb(54, 155, 158);
     font-size: 1.15em ;
+    margin: 20px;
 }
 .trybe_link {
-    color: rgb(17, 121, 17);
+    color: #0fa36b;
 }
-.foto-descrip p{
-    float: right;
-    margin: 30px;
+.foto img {
+    border-radius: 30%;
+    float: left;
+    margin:0px 20px ;
+    border: 2px solid ;
 }
-.qualidades-habilidades{
+.indice{
+   display: inline-block;
+   margin: 0 20px;
+   border: 2px solid ;
+}
+.descripcion-foto{
+    margin-top: 50px;
+    border: 2px solid ;
+}
+.qualidades{
     clear: both;
+    display: inline-block;
+    margin-top: 50px;
+    border: 2px solid ;
+}
+.habilidades{
+    clear: both;
+    display: inline-block;
+    border: 2px solid ;
+   
 }
