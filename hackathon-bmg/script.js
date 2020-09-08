@@ -14,3 +14,4 @@ window.onload = function () {
   button.addEventListener('click', popUp);
   buttonClosePopUp.addEventListener('click', popUp);
 }
+

@@ -8,7 +8,7 @@
 
 <a href="https://www.figma.com/file/jdFUsj0gP1hWT4uaB5aFx6/Banco-BMG---Mega-Hack?node-id=17%3A2" target="_blank">Link do protótipo no Figma</a> 
 
-<a href="https://danieleperse.github.io/hackathon-bmg/" target="_blank">Link do site postado no GitHub.io</a>
+<a href="https://macarena697.github.io/hackathon-bmg/" target="_blank">Link do site postado no GitHub.io</a>
 
 
 ## Problema
